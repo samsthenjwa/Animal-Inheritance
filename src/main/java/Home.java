@@ -5,7 +5,7 @@ public class Home extends Animal {
     public void adoptPet(Animal animal){
         ArrayList<String>Adoption = new ArrayList<String>();
 
-        if(animal.name == "Rax")
+        if(animal.name.equals("Rax"))
         {
             if(Adoption.contains("Rax"))
             {
@@ -29,7 +29,7 @@ public class Home extends Animal {
     }
 
     public void makeAllSounds(Animal animal){
-        if(animal.name == "Rax")
+        if(animal.name.equals("Rax"))
         {
             System.out.println("Woof woof");
         }else
